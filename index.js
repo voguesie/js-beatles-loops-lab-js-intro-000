@@ -13,10 +13,9 @@ function theBeatlesPlay(musicians, instruments) {
 // Function johnLennonFacts accepts an array "facts" and returns a new array with !!! at the end of each fact.
 
 function johnLennonFacts(facts) {
-  var counter = 0;
-  while (var counter < facts.length) {
-    facts[counter] = facts[counter] + "!!!";
-    counter++;
+  var counter = facts.length;
+  while (counter >= 0) {
+    facts[--counter] = facts[--counter] + "!!!";
   }
   return facts
 }
