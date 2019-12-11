@@ -21,7 +21,7 @@ function johnLennonFacts(facts) {
   return facts
 }
 
-// Function iLoveTheBeatles acctepts a numerical parameter and returns a string with 
+// Function iLoveTheBeatles acctepts a numerical parameter and returns a string with
 // the number of "I love the Beatles!" strings as the difference between the number and 15.
 
 function iLoveTheBeatles(numberLoves) {
